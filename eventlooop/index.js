@@ -35,7 +35,7 @@ setImmediate(() => console.log('SETIMMEDIATE', timestamp()))
 // I / O
 dns.lookup('localhost', (err, address, family) => {
     console.log('dns 1 localhost', address, timestamp())
-})
+}) ///// i have never saw this kind of code in javascript what is that loookup?
 
 console.log('prog end')
 
